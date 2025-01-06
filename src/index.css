@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+   /* Navbar */
+/* ---------------------- */
+/* pc view */
+   .header{
+    @apply w-full fixed z-50 h-[64px] lg:h-[72px] border-b-[1px] flex  justify-between items-center  pt-[16px] pr-[24px]  lg:pr-[120px] pb-[16px] pl-[24px]  lg:pl-[120px] bg-[#FFFFFF]
+   };
+
+   .navBox{
+    @apply   p-[10px] flex gap-[5px]
+   };
+   .navItems{
+    @apply capitalize text-[16px] font-semibold leading-6 text-[#000000D9]
+   };
+   .navItemArr{
+    @apply w-[24px] h-[24px] flex justify-center items-center 
+   };
+
+   .navButton{
+    @apply px-5 rounded-full border-[1px]
+   };
+
+/* mobile view */
+/* .mBox{
+    @apply 
+}; */
+.mNavbox{
+    @apply w-[90%] h-[55px] flex justify-center items-center  gap-[4px]   border-b
+};
+.m_navItems{
+    @apply capitalize text-[18px] font-semibold  text-[#000000D9]
+};
+
+
+
+/* ================================================== */
+
+/* Hero section */
+
+.hero_h1{
+    @apply text-[40px]  lg:text-[56px] font-semibold text-black/85  leading-tight  lg:leading-[64px] 
+};
+.hero_p_box{
+    @apply flex items-center gap-[8px]  w-full h-[24px] 
+};
+.hero_p{
+    @apply text-[16px]  lg:text-[18px] tracking-tight text-black/65 
+};
+.hero_btn{
+    @apply text-[16px]  lg:text-[18px] px-4  py-2  flex items-center justify-center bg-black/85 rounded-full  text-white
+};
+
+/* ---- */
+.hero_img1{
+    @apply absolute mx-[70px] my-[424px] w-[297px] h-[205px] lg:mx-[728px] lg:my-[128px] lg:w-[592px] lg:h-[408px] 
+};
+.hero_img2{
+    @apply absolute mx-[49px] my-[471px] w-[131px] h-[37px] lg:mx-[688px] lg:my-[222px] lg:w-[262px] lg:h-[53px]
+};
+.hero_img3{
+    @apply absolute mx-[190px] my-[434px] w-[205px] h-[36px]  lg:mx-[637px] lg:my-[466.51px] lg:w-[364px] lg:h-[49px]
+};
+.hero_img4{
+    @apply absolute mx-[24px] my-[594px] w-[182px] h-[34px]  lg:mx-[969px] lg:my-[148px] lg:w-[409px] lg:h-[51px]
+};
+.hero_img5{
+    @apply absolute mx-[293px] my-[520px] w-[112px] h-[36px]  lg:mx-[1174px] lg:my-[320px] lg:w-[223px] lg:h-[53px]
+};
+
+/* ================================================== */
+
+/* Part-2 */
+
+.brand_h1{
+    @apply w-[382px] h-[64px] lg:w-[693px] lg:h-[96px] mx-auto text-[28px] lg:text-[40px] font-semibold text-black/45  text-center
+};
+.brands{
+    @apply flex justify-center  mx-auto  w-[60px] lg:w-[106px]
+}
+
+
+/* ================================================== */
+
+/* Part-3 */
+
+
+
+
+
+/* ================================================== */
+
+/* Footer */
+
+.footer_btn{
+    @apply  rounded-full py-3 px-5 bg-white  text-black/85 flex items-center justify-center gap-2 mt-4
+};
+
+.footer_list_txt1{
+    @apply text-[14px] text-white font-normal  pb-7
+};
+.footer_list_txt2{
+    @apply flex flex-col text-[14px] text-white/40 font-normal gap-5 cursor-pointer
+};
+
+.footer_list_txt3{
+    @apply text-[12px] text-white/70
+};
+.footer_list_txt4{
+    @apply flex flex-col lg:flex-row lg:justify-between lg:items-center gap-5 text-[12px] text-white/40 font-normal 
+}
+
+
+}
