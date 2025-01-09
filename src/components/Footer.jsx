@@ -1,4 +1,16 @@
 import React from 'react'
+import expand_rightblk from '../images/Expand_right_blk.png';
+import Image_1 from '../images/social/Image_1.png';
+import Image_2 from '../images/social/Image_2.png';
+import Image_3 from '../images/social/Image_3.png';
+import Image_4 from '../images/social/Image_4.png';
+import world from '../images/world.png';
+
+
+
+
+
+
 
 function Footer() {
   return (
@@ -12,7 +24,7 @@ function Footer() {
           <button className=" footer_btn ">
           Request a demo
                   <span>
-                    <img src="../../public/Expand_right_blk.png" />
+                    <img src={expand_rightblk} />
                   </span>
                 </button>
             </div>
@@ -29,10 +41,10 @@ function Footer() {
                     <h2 className='text-[32px] font-semibold text-white'>HireGo</h2>
                     {/*social icons */}
                     <div className=' flex gap-6 mt-8 cursor-pointer '>
-                      <img src='../../public//social/Image_1.png' />
-                      <img src='../../public//social/Image_2.png' />
-                      <img src='../../public//social/Image_3.png' />
-                      <img src='../../public//social/Image_4.png' />
+                      <img src={Image_1} />
+                      <img src={Image_2} />
+                      <img src={Image_3} />
+                      <img src={Image_4} />
                     </div>
                  </div>
                  {/* grid box */}
@@ -86,7 +98,7 @@ function Footer() {
             </div>
             {/* box-2 */}
             <div className='flex items-center  gap-2 cursor-pointer mt-8 lg:mt-0'>
-              <div><img src='../../public//world.png' /></div>
+              <div><img src={world} /></div>
               <p className='text-[14px] text-white '>English</p>
             </div>
             {/* box-3 */}

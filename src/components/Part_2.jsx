@@ -1,4 +1,19 @@
-import React from "react";
+import Image1 from "../images/Brands/Image-1.png";
+import Image2 from "../images/Brands/Image-2.png";
+import Image3 from "../images/Brands/Image-3.png";
+import Image4 from "../images/Brands/Image-4.png";
+import Image5 from "../images/Brands/Image-5.png";
+import Image6 from "../images/Brands/Image-6.png";
+import Image7 from "../images/Brands/Image-7.png";
+import Image8 from "../images/Brands/Image-8.png";
+import Image9 from "../images/Brands/Image-9.png";
+import Image10 from "../images/Brands/Image-10.png";
+import Image11 from "../images/Brands/Image-11.png";
+import Image12 from "../images/Brands/Image-12.png";
+import Image13 from "../images/Brands/Image-13.png";
+import Image14 from "../images/Brands/Image-14.png";
+
+
 
 
 
@@ -13,46 +28,46 @@ function Part_2() {
       <div className="w-[90%] h-fit lg:w-[1233px] lg:h-[136px] mx-auto mt-[80px] lg:mt-[64px]  ">
         <div className="w-full grid grid-cols-3  lg:grid-cols-7  justify-center  gap-4  lg:gap-10 items-center">
           <div className="brands ">
-            <img src="../../public/Brands/Image-1.png" />
+            <img src={Image1} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-14.png" />
+            <img src={Image2} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-13.png" />
+            <img src={Image3} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-12.png" />
+            <img src={Image4} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-11.png" />
+            <img src={Image5} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-10.png" />
+            <img src={Image6} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-9.png" />
+            <img src={Image7} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-8.png" />
+            <img src={Image8} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-7.png" />
+            <img src={Image9} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-6.png" />
+            <img src={Image10} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-5.png" />
+            <img src={Image11} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-4.png" />
+            <img src={Image12} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-3.png" />
+            <img src={Image13} />
           </div>
           <div className="brands">
-            <img src="../../public/Brands/Image-2.png" />
+            <img src={Image14} />
           </div>
           
         </div>
